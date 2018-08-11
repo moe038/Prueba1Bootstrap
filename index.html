@@ -44,7 +44,10 @@
 
 
     <!-- Page Content -->
-    <section>
+    <header>
+
+    <div class="container-fluid d-none d-sm-block">
+
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -66,9 +69,12 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-    </section>
 
-    <section class="cont1"> 
+
+</div>
+</header>
+
+    <section class="cont1">
       <div class="container">
         <div class="container">
           <div class="row">
@@ -82,7 +88,85 @@
   </ul>
             </div>
             <div class="col-md-6">
-              One of two columns
+              <form>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            First radio
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Second radio
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+          <label class="form-check-label" for="gridRadios3">
+            Third disabled radio
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <div class="col-sm-2">Checkbox</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">CLICK CLICK</button>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    </div>
+  </div>
+</form>
             </div>
           </div>
         </div>
@@ -90,6 +174,60 @@
 
       </div>
     </section>
+
+
+
+    <section>
+    <div class="container">
+    <div class="row">
+      <div class="card col-lg-4">
+        <img class="card-img-top" src="https://picsum.photos/100/80
+" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-4" >
+        <img class="card-img-top" src="https://picsum.photos/100/80
+" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-4" >
+        <img class="card-img-top" src="https://picsum.photos/100/80
+" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    </div>
+
+    </section>
+
+    <footer class="col-lg-12">
+
+<div class="container d-none d-sm-block d-md-none ">
+  <h1>Descripción</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate pariatur tempore provident dolores explicabo incidunt ea, possimus tempora ipsam sunt. Reprehenderit optio voluptates unde non, deleniti commodi nisi alias fugiat.</p>
+</div>
+
+<p>copyright 2018©</p>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript -->
